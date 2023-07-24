@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- for each loop -->
+    <script>
+        let friends = ['aksh', 'naksh', 'akash', 'ishan']
+
+        friends.forEach(function (item, index, array) {
+            console.log(item, index, array)
+        })
+    </script>
+
+    <!-- for of loop -->
+    <script>
+        for (let singleElement of friends) {
+            console.log(singleElement)
+        }
+    </script>
+
+    <!-- for in loop -->
+    <script>
+        for (let singleElement in friends) {
+            console.log(singleElement)
+        }
+    </script>
+
+    <!-- map -->
+    <script>
+        let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+        // let modifyNumber = number.map((item, index, entArr) => {
+        //     console.log(item)
+        //     return item * 2
+        // })
+        // console.log(modifyNumber)
+
+        // filter method
+        let greaterThan5 = number.filter((item, index, entArr) => {
+            return item > 5
+        })
+        console.log("greaterThan5:", greaterThan5)
+
+
+    </script>
+</body>
+
+</html>

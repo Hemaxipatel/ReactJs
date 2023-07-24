@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- check age is above 18 & print message -->
+</head>
+
+<body>
+    <input type="number" placeholder="Enter Your Age"><button onclick="checkAge()">Click Here</button>
+
+    <h1 id="message"></h1>
+    <script>
+        function checkAge() {
+            let inputBox = document.querySelector('input')
+            let message = document.querySelector('#message')
+
+            if (inputBox.value === '') {
+                inputBox.style.border = '2px solid red'
+            } else if (inputBox.value >= 18) {
+                document.body.style.background = 'green'
+                message.innerHTML = 'yes, you can drive!'
+            } else {
+                document.body.style.background = 'red'
+                message.innerHTML = "no, you can't drive!";
+            }
+        }
+    </script>
+</body>
+
+</html>
