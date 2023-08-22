@@ -1,0 +1,93 @@
+.footer-bg {
+    background-color: #2f2f2f;
+}
+
+.footer-flex {
+    display: flex;
+    gap: 80px;
+    padding: 100px 0px;
+}
+
+.footer-flex .box-1 .title-1 {
+    color: white;
+}
+
+.footer-flex .box-2 .title-2 {
+    color: white;
+}
+
+.footer-flex .box-3 .title-3 {
+    color: white;
+}
+
+.footer-flex .box-4 .title-4 {
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+.title-1 ul li {
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.facebook-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    height: 35px;
+    width: 35px;
+    background-color: #3B5997;
+}
+
+.twitter-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    height: 35px;
+    width: 35px;
+    background-color: #1DA1F2;
+}
+
+.insta-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    height: 35px;
+    width: 35px;
+    background-color: #DC3472;
+}
+
+.linkedin-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    height: 35px;
+    width: 35px;
+    background-color: #0077B5;
+}
+
+.connectivity-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    height: 35px;
+    width: 35px;
+    background-color: #eb8314;
+}

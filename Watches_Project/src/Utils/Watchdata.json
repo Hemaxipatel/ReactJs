@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Rolex",
+        "brand": "Rolex",
+        "gender": "MEN",
+        "category": "RUNNING",
+        "price": "$49.00  $90.00",
+        "is_in_inventory": true,
+        "items_left": 3,
+        "imageURL": "https://technofet.com/timemart/assets/images/product/product-02.png"
+    },
+    {
+        "id": 2,
+        "name": "Omega",
+        "brand": "Omega",
+        "gender": "MEN",
+        "category": "RUNNING",
+        "price": "$55.00  $76.00",
+        "is_in_inventory": true,
+        "items_left": 3,
+        "imageURL": "https://technofet.com/timemart/assets/images/product/product-03.png"
+    },
+    {
+        "id": 3,
+        "name": "TAG Heuer",
+        "brand": "TAG Heuer",
+        "gender": "MEN",
+        "category": "RUNNING",
+        "price": "$64.00  $72.00",
+        "is_in_inventory": true,
+        "items_left": 3,
+        "imageURL": "https://technofet.com/timemart/assets/images/product/product-04.png"
+    },
+    {
+        "id": 4,
+        "name": "Breitling",
+        "brand": "Breitling",
+        "gender": "MEN",
+        "category": "RUNNING",
+        "price": "$44.00 $49.00",
+        "is_in_inventory": true,
+        "items_left": 3,
+        "imageURL": "https://technofet.com/timemart/assets/images/product/product-05.png"
+    }
+]

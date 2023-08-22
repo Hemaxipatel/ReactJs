@@ -1,0 +1,56 @@
+.bg-color {
+    background-color: rgb(51, 51, 51) !important
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: #d63384 !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.nav-link:hover {
+    color: #d63384 !important;
+}
+
+.navbar-collapse {
+    padding-left: 60px;
+}
+
+.navbar {
+    height: 90px;
+}
+
+.txtcolor a {
+    color: black;
+}
+
+.cartflex {
+    display: flex;
+    gap: 10px;
+}
+
+.wishlist a svg:hover {
+    fill: #d63384;
+    stroke: #d63384;
+}
+
+.shop-cart a svg:hover {
+    fill: #d63384;
+    stroke: #d63384;
+}
+
+.user-icon a svg:hover {
+    fill: #d63384;
+}
